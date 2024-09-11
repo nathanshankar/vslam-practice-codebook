@@ -1,0 +1,6 @@
+/home/nathan/project/vslam/chap2/CMakeFiles/eigenMatrix.dir
+/home/nathan/project/vslam/chap2/CMakeFiles/eigenGeometry.dir
+/home/nathan/project/vslam/chap2/CMakeFiles/eigenTransform.dir
+/home/nathan/project/vslam/chap2/CMakeFiles/traj.dir
+/home/nathan/project/vslam/chap2/CMakeFiles/edit_cache.dir
+/home/nathan/project/vslam/chap2/CMakeFiles/rebuild_cache.dir
