@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hello.dir/libHelloSLAM.cpp.o"
-  "CMakeFiles/hello.dir/libHelloSLAM.cpp.o.d"
   "libhello.pdb"
   "libhello.so"
 )
