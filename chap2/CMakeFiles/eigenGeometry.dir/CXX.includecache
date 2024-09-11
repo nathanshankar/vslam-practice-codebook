@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/vslam-practice-codebook/chap2/useGeometry.cpp
+iostream
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+
