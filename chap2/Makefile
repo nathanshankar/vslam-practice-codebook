@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named traj
+
+# Build rule for target.
+traj: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 traj
+.PHONY : traj
+
+# fast build rule for target.
+traj/fast:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/build
+.PHONY : traj/fast
+
+#=============================================================================
 # Target rules for targets named eigenTransform
 
 # Build rule for target.
@@ -203,6 +216,33 @@ eigenMatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/eigenMatrix.dir/build.make CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.s
 .PHONY : eigenMatrix.cpp.s
 
+plotTrajectory.o: plotTrajectory.cpp.o
+
+.PHONY : plotTrajectory.o
+
+# target to build an object file
+plotTrajectory.cpp.o:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/plotTrajectory.cpp.o
+.PHONY : plotTrajectory.cpp.o
+
+plotTrajectory.i: plotTrajectory.cpp.i
+
+.PHONY : plotTrajectory.i
+
+# target to preprocess a source file
+plotTrajectory.cpp.i:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/plotTrajectory.cpp.i
+.PHONY : plotTrajectory.cpp.i
+
+plotTrajectory.s: plotTrajectory.cpp.s
+
+.PHONY : plotTrajectory.s
+
+# target to generate assembly for a file
+plotTrajectory.cpp.s:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/plotTrajectory.cpp.s
+.PHONY : plotTrajectory.cpp.s
+
 useGeometry.o: useGeometry.cpp.o
 
 .PHONY : useGeometry.o
@@ -237,6 +277,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... traj"
 	@echo "... edit_cache"
 	@echo "... eigenTransform"
 	@echo "... eigenGeometry"
@@ -247,6 +288,9 @@ help:
 	@echo "... eigenMatrix.o"
 	@echo "... eigenMatrix.i"
 	@echo "... eigenMatrix.s"
+	@echo "... plotTrajectory.o"
+	@echo "... plotTrajectory.i"
+	@echo "... plotTrajectory.s"
 	@echo "... useGeometry.o"
 	@echo "... useGeometry.i"
 	@echo "... useGeometry.s"

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/traj.dir/plotTrajectory.cpp.o"
-  "CMakeFiles/traj.dir/plotTrajectory.cpp.o.d"
   "traj"
   "traj.pdb"
 )
