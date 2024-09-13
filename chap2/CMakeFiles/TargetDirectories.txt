@@ -1,6 +1,0 @@
-/workspaces/vslam-practice-codebook/chap2/CMakeFiles/rebuild_cache.dir
-/workspaces/vslam-practice-codebook/chap2/CMakeFiles/traj.dir
-/workspaces/vslam-practice-codebook/chap2/CMakeFiles/edit_cache.dir
-/workspaces/vslam-practice-codebook/chap2/CMakeFiles/eigenTransform.dir
-/workspaces/vslam-practice-codebook/chap2/CMakeFiles/eigenGeometry.dir
-/workspaces/vslam-practice-codebook/chap2/CMakeFiles/eigenMatrix.dir

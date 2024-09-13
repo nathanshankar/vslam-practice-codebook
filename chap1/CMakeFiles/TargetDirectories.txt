@@ -1,5 +1,0 @@
-/workspaces/vslam-practice-codebook/chap1/CMakeFiles/rebuild_cache.dir
-/workspaces/vslam-practice-codebook/chap1/CMakeFiles/edit_cache.dir
-/workspaces/vslam-practice-codebook/chap1/CMakeFiles/useHello.dir
-/workspaces/vslam-practice-codebook/chap1/CMakeFiles/hello.dir
-/workspaces/vslam-practice-codebook/chap1/CMakeFiles/helloSLAM.dir

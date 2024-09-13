@@ -1,4 +1,0 @@
-/home/nathan/project/vslam/chap3/CMakeFiles/prac.dir
-/home/nathan/project/vslam/chap3/CMakeFiles/traj_err.dir
-/home/nathan/project/vslam/chap3/CMakeFiles/edit_cache.dir
-/home/nathan/project/vslam/chap3/CMakeFiles/rebuild_cache.dir
