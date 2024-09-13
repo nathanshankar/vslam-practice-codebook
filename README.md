@@ -1,2 +1,10 @@
 # vslam-practice-codebook
-@book{Gao_Zhang_2021, title={Introduction to Visual SLAM}, url={https://doi.org/10.1007/978-981-16-4939-4}, DOI={10.1007/978-981-16-4939-4}, journal={Springer eBooks}, author={Gao, Xiang and Zhang, Tao}, year={2021}, month=jan }
+## What I have learnt:
+
+### Chapter 1: How to create CMake packages and libraries
+
+### Chapter 2: Eigen Vectors, Matrices and using Pangolin for trajectory plotting
+
+### Chapter 3:  Using Sophus for special euclidean and orthogonals of the 3rd dimension and plotting trajectory tracking error
+
+### Chapter 4: Image Processing, Disparity generation and Pointcloud
