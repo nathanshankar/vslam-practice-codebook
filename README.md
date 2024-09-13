@@ -1,7 +1,7 @@
 # vslam-practice-codebook
 ## What I have learnt:
 
-### Chapter 1: How to create CMake packages and libraries
+### Chapter 1: How to create executables, headers and libraries
 
 ### Chapter 2: Eigen Vectors, Matrices and using Pangolin for trajectory plotting
 
