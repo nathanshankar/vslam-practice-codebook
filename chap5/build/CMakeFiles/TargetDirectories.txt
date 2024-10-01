@@ -1,0 +1,6 @@
+/home/nathan/project/vslam/chap5/build/CMakeFiles/gaussnewton.dir
+/home/nathan/project/vslam/chap5/build/CMakeFiles/edit_cache.dir
+/home/nathan/project/vslam/chap5/build/CMakeFiles/rebuild_cache.dir
+/home/nathan/project/vslam/chap5/build/build_pgl_viewer/CMakeFiles/pgl.dir
+/home/nathan/project/vslam/chap5/build/build_pgl_viewer/CMakeFiles/edit_cache.dir
+/home/nathan/project/vslam/chap5/build/build_pgl_viewer/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.5)
+project(image_proc)
+find_package(OpenCV REQUIRED)
+include_directories( "/usr/include/eigen3" )
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../pgl_viewer build_pgl_viewer)
+add_executable(gaussnewton gaussNewton.cpp)
+target_link_libraries(gaussnewton PRIVATE ${OpenCV_LIBS})
